@@ -12,6 +12,7 @@ body{
 }
 
 .header{
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,38 +23,73 @@ body{
 }
 
 .main{
+    border: 1px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: stretch;
     height: 70vh;
     width: 100%;
 }
 
 .mainPart{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    align-items: space between;
+    align-items: center;
+    justify-content: flex-start;
     width: 65%;
     background-color: bisque;
 }
 
+.title{
+    padding: 15px 200px 200px;
+}
+
 .moreParts{
+    border: 1px solid black;
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 100%;
+}
+.more1, .more2, .more3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin: 10px 20px;
+    padding: 10px 20px;
     background-color: rgb(244, 205, 157);
 }
 
-.sidePart{
-    background-color: rgb(158, 239, 165);
-}
-
 .topLine{
+    border: 1px solid black;
     display: flex;
-    gap: 10px;
+  flex-direction: row;
+justify-content: space-between;
 }
 
-.footer
-{
+.more1, .more2{
+    width: 30%;
+}
+
+.bottomLine{
+    width: 100%;
+}
+.more3{
+    width: calc(100%-80px);
+}
+
+.sidePart{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    background-color: rgb(158, 239, 165);
+    width: 35%;
+}
+
+.footer{
+    border: 1px solid black;
     display: flex;
     background-color: rgb(158, 156, 156);
     justify-content: space-around;
@@ -63,7 +99,12 @@ body{
 }
 
 .section{
-    padding: 20px 10 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 100px;
+    margin: 20px 10 px;
     background-color: white;
     height: 50%;
     
