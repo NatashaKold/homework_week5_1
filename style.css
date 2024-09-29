@@ -60,7 +60,7 @@ body{
     background-color: rgb(244, 205, 157);
 }
 
-.topLine{
+.topline{
     border: 1px solid black;
     display: flex;
   flex-direction: row;
