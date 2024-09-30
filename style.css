@@ -26,6 +26,7 @@ body{
     border: 1px solid black;
     display: flex;
     justify-content: stretch;
+    flex: 1 0 auto;
     height: 70vh;
     width: 100%;
 }
